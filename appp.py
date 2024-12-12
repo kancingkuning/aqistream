@@ -13,7 +13,7 @@ st.header("How Air Pollution Affects Stations Around Beijing :cn: :dash:")
 
 
 #load data, buat rentang waktu yang bisa diklik
-all_df = pd.read_csv("/Users/reginaapriliaroberto/Downloads/aqistreamlit/combined_file.csv")
+all_df = pd.read_csv("/Users/reginaapriliaroberto/Downloads/aqistream/combined_file.csv")
 datetime_columns = ["datetime"]
 all_df.sort_values(by="datetime", inplace=True)
 all_df.reset_index(inplace=True)
